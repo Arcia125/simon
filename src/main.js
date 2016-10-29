@@ -170,7 +170,7 @@ const initApp = function initApp() {
     const drawSimon = () => {
         ctx.clearRect(0, 0, canvas.width, canvas.height);
 
-        let grd = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, outerR, canvas.width / 2, canvas.height / 2, canvas.height);
+        let grd = ctx.createRadialGradient(canvas.width / 2, canvas.height / 2, outerR, canvas.width / 2, canvas.height / 2, canvas.height * 1.5);
         grd.addColorStop(0, '#222');
         grd.addColorStop(1, '#000');
         ctx.fillStyle = grd;
