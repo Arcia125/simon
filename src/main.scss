@@ -1,27 +1,26 @@
 @import url('https://fonts.googleapis.com/css?family=Ultra');
 @import url('https://fonts.googleapis.com/css?family=Rationale');
+
 body {
-  background: #777;
+  overflow: hidden;
 }
 
 .start-button {
   display: inline;
   position: absolute;
-  background: lime;
   padding: 0;
   margin: 0;
+  right: 0;
+  bottom: 0;
   border-style: outset;
-  border-color: black;
+  border-color: #000;
   text-align: center;
   font-family: Sans-serif;
   font-weight: 900;
   border-radius: 100%;
   line-height: 700%;
   user-select: none;
-}
-
-.start-button:active {
-  box-shadow: 0px 0px 20px lime;
+  transform: translate(-50%, -50%);
 }
 
 .strict-button {
@@ -29,14 +28,17 @@ body {
   position: absolute;
   padding: 0;
   margin: 0;
+  right: 0;
+  bottom: 0;
   border-style: outset;
-  border-color: black;
+  border-color: #000;
   text-align: center;
   font-family: Sans-serif;
   font-weight: 900;
   border-radius: 100%;
   line-height: 700%;
   user-select: none;
+  transform: translate(-50%, -50%);
 }
 
 button:focus {
